@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Was möchtest du machen?"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonToLernen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zum Lernen"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonToLernActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zur Kartenverwaltung"
+        android:layout_below="@id/buttonToLernen"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/buttonToScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score anzeigen"
+        android:layout_below="@id/buttonToLernActivity"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonToExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beenden"
+        android:layout_below="@id/buttonToScore"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

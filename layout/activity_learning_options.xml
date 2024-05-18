@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <!-- Hier kannst du die Benutzeroberfläche für die LernenActivity definieren -->
+    <!-- Zum Beispiel Buttons, Textfelder, usw. -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wie möchtest du Lernen?"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/buttonOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="150dp"
+        android:text="Basic" />
+
+    <!--- <Button
+         android:id="@+id/buttonOption2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/buttonOption1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="60dp"
+         android:text="Power" />
+
+     <Button
+         android:id="@+id/buttonOption3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/buttonOption2"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="60dp"
+         android:text="Set spezifisch" /> -->
+
+    <Button
+        android:id="@+id/button_back_to_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="120dp"
+        android:onClick="backToNavigation"
+        android:text="Zurück zur Navigation" />
+
+</RelativeLayout>
